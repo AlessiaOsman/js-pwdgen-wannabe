@@ -6,3 +6,5 @@
 // modifico il valore della variabile con valore 21 aggiungendo i dati dell'utente
 // modifico il contenuto testuale
 
+const paragraph = document.getElementById('newPassword')
+console.log(paragraph)
