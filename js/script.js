@@ -6,12 +6,20 @@
 // modifico il valore della variabile con valore 21 aggiungendo i dati dell'utente
 // modifico il contenuto testuale
 
-const paragraph = document.getElementById('newPassword')
-console.log(paragraph)
+const paragraph = document.getElementById('newPassword');
+console.log(paragraph);
 
-let message = 'La tua password è'
+let message = 'La tua password è ';
+console.log(message);
+
+let endPassword = '21';
+
+const lastName = prompt('Qual è il tuo cognome?', 'Osman');
+console.log(lastName);
+
+const favouriteColor = prompt('Qual è il tuo colore preferito?', 'Giallo');
+console.log(favouriteColor)
+
+message += lastName + favouriteColor + endPassword;
 console.log(message)
-
-const lastName = prompt('Qual è il tuo cognome', 'Osman')
-console.log(lastName)
 
