@@ -8,3 +8,6 @@
 
 const paragraph = document.getElementById('newPassword')
 console.log(paragraph)
+
+let message = 'La tua password è'
+console.log(message)
