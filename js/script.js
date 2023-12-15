@@ -11,3 +11,7 @@ console.log(paragraph)
 
 let message = 'La tua password è'
 console.log(message)
+
+const lastName = prompt('Qual è il tuo cognome', 'Osman')
+console.log(lastName)
+
